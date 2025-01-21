@@ -12,5 +12,10 @@ public class MainController {
     public String getIndex() {
         return "index";
     }
+
+    @GetMapping("/board")
+    public String getBoard() {
+        return "board";
+    }
     
 }
